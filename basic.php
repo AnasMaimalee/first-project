@@ -23,16 +23,20 @@
        // echo "<br>";
     }
 
-    
+    //Another loop
+
       for($x=0; $x<=20; $x++){
       echo $x;
       echo"</br></br>";
     }
     echo"</br>";
+//Array
     $numbers = array(1,2,3,4,5);
     foreach($numbers as $value){
       echo "Value is $value </br></br>";
     }
+
+//Switch
 $today = "fri";
 $d = $today;
 switch ($d)
