@@ -6,7 +6,7 @@ $dbname = "mydb"
 
 //create connection
 // the connection is not working and i dont know why pls help me fixed it.
-$conn = new mysqli("$servername", "$username", "$password", $dbname);
+$conn = new mysqli($servername, $username, $password, $dbname);
 
 //check connection
 
